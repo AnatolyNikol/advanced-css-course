@@ -4,7 +4,7 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "../../node_modules/.bin/node-sass Natours/starter/sass/main.scss Natours/starter/css/style.css -w"
+    "compile:sass": "node-sass Natours/starter/sass/main.scss /css/style.css -w"
   },
   "author": "",
   "license": "ISC",
